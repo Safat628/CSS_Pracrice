@@ -1,1 +1,50 @@
 
+<!-- Inline css and internal css  -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inline CSS</title>
+    </head>
+    <body>
+        <!-- inline css is on line by line but it is not recommended but in some cases we can use it  -->
+
+        <h1 style="color: blue;">My university is in China</h1>
+        <p style="color:red; font-size: 100%;"> Yunnan University is a national key university in Yunnan Province, China. Its main campuses are located in the provincial capital city of Kunming. Founded in December 1922, Yunnan University started to enroll in April 1923.</p>
+
+    </body>
+</html>
+
+
+
+
+<!-- internal css using  -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inline CSS</title>
+
+       <!-- using the interneal css you need to use style tag -->
+       
+       <style type="text/css">
+            h1{
+                color: blue;
+                font-size: 120%;
+            }
+            p{
+                color:green;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <!-- inline css is on line by line but it is not recommended but in some cases we can use it  -->
+
+        <h1>My university is in China</h1>
+        <p> Yunnan University is a national key university in Yunnan Province, China. Its main campuses are located in the provincial capital city of Kunming. Founded in December 1922, Yunnan University started to enroll in April 1923.</p>
+
+            
+        </body>
+        </html>
