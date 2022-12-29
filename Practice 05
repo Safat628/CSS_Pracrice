@@ -39,3 +39,47 @@
         </body>
 
  </html>
+ 
+ 
+ 
+ <!-- padding -->
+
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>padding</title>
+ 
+         <style>
+
+            #section3{
+
+                color: blue;
+                background-color:black;
+                width: 200px;
+                padding: 20px 10px 5px 5px;
+                
+            }
+ 
+            #section4{
+
+                color: red;
+                background-color: aqua;
+                width: 200px;
+                padding: 20px 10px 5px 5px;
+            }
+        
+         </style>
+        
+     </head>
+     <body>
+
+        <div id="section3">
+            <h1>Bangladesh</h1>
+        </div>
+        <div id="section4">
+            <h1>China</h1>
+        </div>
+
+        </body>
+
+ </html>
