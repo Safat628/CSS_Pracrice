@@ -32,5 +32,42 @@
             
         </body>
         </html>
+        
+        
+         <!-- using class and ID 2  -->
+
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>Class and ID 2</title>
+ 
+         <style type="text/css">
+ 
+            .heading-style{
+
+                color: blue;
+                font-size: 100%;
+
+            }
+
+            #color{
+
+                color: blue;
+                font-size: 100%;
+            }
+            
+             
+         </style>
+     </head>
+     <body>
+ 
+ 
+         <div class="heading-style">
+        <h1>My university is in China</h1>
+         <p id="font-size"> Yunnan University is a national key university in Yunnan Province, China. Its main campuses are located in the provincial capital city of Kunming. Founded in December 1922, Yunnan University started to enroll in April 1923.</p>
+        </div>
+             
+         </body>
+         </html>
 
        
