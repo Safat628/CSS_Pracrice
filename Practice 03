@@ -1,1 +1,36 @@
+ <!-- using class and ID  -->
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class and ID</title>
+
+        <style type="text/css">
+
+/* using class ....class can be used everywhere*/
+            .heading-style{
+                color: blue;
+
+            }
+
+           
+           
+            /* id can be used only once */
+
+            #p-style{
+
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <h1 class= "heading-style">My university is in China</h1>
+        <p id="p-style"> Yunnan University is a national key university in Yunnan Province, China. Its main campuses are located in the provincial capital city of Kunming. Founded in December 1922, Yunnan University started to enroll in April 1923.</p>
+
+            
+        </body>
+        </html>
+
+       
