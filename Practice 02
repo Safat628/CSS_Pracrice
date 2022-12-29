@@ -1,1 +1,34 @@
 
+
+<!-- EXTERNAL CSS USING  -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>External css</title>
+
+      <link rel="stylesheet" type="text/css" href="style.css"> 
+    </head>
+    <body>
+        <!-- inline css is on line by line but it is not recommended but in some cases we can use it  -->
+
+        <h1>My university is in China</h1>
+        <p> Yunnan University is a national key university in Yunnan Province, China. Its main campuses are located in the provincial capital city of Kunming. Founded in December 1922, Yunnan University started to enroll in April 1923.</p>
+
+            
+        </body>
+        </html>
+        
+ 
+ <!-- create a new style.css file foer below code and use the external css-->
+  
+  h1{
+
+    color: rgb(238, 9, 9);
+    font-size: 140%;
+}
+
+p{
+    color: rgb(7, 7, 233);
+}
+        
