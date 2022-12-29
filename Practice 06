@@ -7,7 +7,9 @@
     <title>adding border</title>
 <style>
    
-    h1,h2,h3 {
+   /* border can be left right top botom ..... border radius also you can use*/
+   
+   h1,h2,h3 {
 
     border: 5px blue solid;
     width: 300px;
@@ -25,6 +27,5 @@
 </body>
 </head>
 </html>
-
 
 
