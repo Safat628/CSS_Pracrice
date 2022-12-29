@@ -1,1 +1,84 @@
+<!-- selector and combinators  -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+
+  <style>
+
+    /* using all the commented form */
+    
+   /*   * using this all the text or background will be afftected 
+   
+   *{
+
+        color: green;
+    }
+*/
+
+ /*    h1 {
+    background-color: red;
+   }
+
+   */
+
+  /*   div + p {
+
+    color: green;
+   }
+
+  */ 
+
+/*    div ~ p {
+
+color: green;
+}
+   */
+   </style>
+       
+        <div>
+            <p>My university in China 1 </p> 
+            <p>My university in China 2 </p> 
+            <p>My university in China 3 </p> 
+            <p>My university in China 4 </p> 
+        </div>
+        <p>My university in China 5 </p> 
+        <p>My university in China 6 </p> 
+
+
+            
+    </head>
+    <body>
+
+---------------------------------------------------
+
+        <!-- emoji in css -->
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>CSS</title>
+
+                <link rel="stylesheet" href="style.css">
+    
+            </head>
+
+        <body>
+
+            <h1>I<span>♥</span>my university</h1>
+
+        </body>
+
+        </html>
+
+
+<!-- create a style.css file and try   -->
+
+span{
+
+    color: rgb(35, 7, 246);
+    font-size: 3rem;
+ 
+}
 
