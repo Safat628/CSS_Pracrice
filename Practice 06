@@ -1,1 +1,30 @@
+<!-- adding a border -->
+
+<!doctype html>
+
+<html>
+<head>
+    <title>adding border</title>
+<style>
+   
+    h1,h2,h3 {
+
+    border: 5px blue solid;
+    width: 300px;
+   }
+
+</style>
+<body>
+   <div>
+    <h1>This is bangladesh</h1>
+    <h2>This is China</h2>
+    <h3>This is Canada</h3>
+   </div>
+   
+    
+</body>
+</head>
+</html>
+
+
 
