@@ -1,0 +1,60 @@
+<!-- Css box padding margin padding -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Css box padding margin padding</title>
+
+    <style>
+      .content {
+        background-color: rgb(140, 11, 246);
+        width: 200px;
+        padding: 5px;
+        border: 5px solid black;
+        margin: 5px;
+      }
+
+      .content2 {
+        background-color: blue;
+        display: inline;
+      }
+
+      .a {
+        width: 600px;
+        margin: auto;
+        border: 3px solid blue;
+      }
+
+      .a1 {
+        max-width: 600px;
+        margin: auto;
+        border: 3px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">This is my country</div>
+
+    <!-- inline block -->
+
+    <div class="content2">
+      This is Bangladesh <br />
+      <span>China is my favourite country</span>
+    </div>
+
+    <div>
+      <p class="a">
+        Yunnan University is a national key university in Yunnan Province,
+        China. Its main campuses are located in the provincial capital city of
+        Kunming. Founded in December 1922, Yunnan University started to enroll
+        in April 1923.
+      </p><br>
+      <p class="a1">
+        Yunnan University is a national key university in Yunnan Province,
+        China. Its main campuses are located in the provincial capital city of
+        Kunming. Founded in December 1922, Yunnan University started to enroll
+        in April 1923.
+      </p>
+    </div>
+  </body>
+</html>
