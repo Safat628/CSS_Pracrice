@@ -47,3 +47,81 @@
   </body>
 </html>
 
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      .h:hover {
+        background-color: red;
+      }
+
+      .h p:nth-child(4) {
+        color: rgb(110, 7, 244);
+      }
+
+      li:nth-child(2) {
+        color: blue;
+      }
+
+      .hob::first-letter {
+        color: rgb(246, 122, 6);
+        font-size: 2rem;
+      }
+
+      .hob::selection{
+
+        background: red;
+        color: bisque;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="h">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+        minima.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+        minima.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+        minima.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+        minima.
+      </p>
+    </div>
+
+
+    <div>
+
+      <ul>
+        <li>Safat1</li>
+        <li>Safat2</li>
+        <li>Safat3</li>
+        <li>Safat4</li>
+      </ul></div>
+
+      
+      <ol class="hob">
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+      </ol>
+    </div>
+  </body>
+</html>
+
+
