@@ -1,0 +1,99 @@
+<!-- overflow anfd tooltip -->
+
+<!--  ---------------------commented----------------------------
+  
+  
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow and tooltip</title>
+
+    <style>
+      /* overflow start */
+
+      div {
+        background-color: red;
+        height: 200px;
+        width: 100px;
+        overflow: hidden;
+        overflow: scroll;
+      }
+      /* overflow end */
+
+      a {
+        text-decoration: none;
+      }
+
+      .tool .tip {
+        width: 150px;
+        background-color: red;
+        color: aliceblue;
+        padding: 10px;
+        top: 30px;
+        visibility: hidden;
+      }
+
+      .tool:hover .tip {
+        visibility: visible;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      Et dolores erat nonumy dolor dolor, rebum eirmod diam accusam.Accusam at
+      lorem justo eirmod magna. Lorem et lorem dolor sanctus amet et et ipsum.
+      Magna est vero sadipscing sanctus eos. Dolore tempor et no et lorem
+      takimata gubergren ea, clita accusam ipsum justo duo et et. Et dolor kasd
+      elitr lorem labore. Dolor amet sed stet accusam diam, invidunt.
+    </div>
+   <br />
+
+    <a href="#" class="tool"
+      >Yunnan University
+      <span class="tip">Yunnan university is a good university</span>
+    </a>
+  </body>
+</html>
+-->
+
+<!-- ---------------------commented ----------------------- -->
+
+<!-- Z-index and CSS3  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-index</title>
+
+    <style>
+      :root {
+        --new-color: black;
+      }
+      div {
+        height: 200px;
+        width: 200px;
+      }
+
+      #div1 {
+        background: var(--new-color);
+      }
+      #div2 {
+        background: green;
+        position: absolute;
+        left: 150px;
+        top: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+  </body>
+</html>
