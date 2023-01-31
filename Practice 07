@@ -13,6 +13,7 @@
         border: 5px solid black;
         margin: 5px;
       }
+      
 
       .content2 {
         background-color: blue;
